@@ -194,6 +194,13 @@ echo "installing NVM"
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
 echo "NVM installed"
 
+echo "installing Nodejs"
+nvm install node
+echo "Nodejs installed"
+echo "node version"
+nvm ls
+echo "---------------------------------------"
+
 echo "Reloading ~./profile"
 source ~/.profile
 echo -e "\n\n\n\n\n\n\n\n\n\n\nDone! All tools are set up in ~/tools"
