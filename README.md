@@ -9,6 +9,6 @@ This install process will also add (except the BBHT scripts).
 5. Cacher
 6. Amass
 
-> All AWS processes removed from those scripts, i am just not using AWS so much 😇
+> All AWS installations removed, i am just not using AWS so much 😇
 
 Thanks to Ben Sadeghipour
