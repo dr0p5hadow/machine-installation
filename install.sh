@@ -17,8 +17,6 @@ sudo apt-get install -y python-dnspython
 sudo apt-get install -y git
 sudo apt-get install -y rename
 sudo apt-get install -y xargs
-sudo apt install snapd
-
 
 echo "installing bash_profile aliases from recon_profile"
 cat bash_profile >> ~/.bash_profile
