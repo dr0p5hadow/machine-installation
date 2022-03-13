@@ -191,7 +191,7 @@ sudo snap install curl
 echo "CURL installed"
 
 echo "installing NVM"
-curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
+sudo curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
 echo "NVM installed"
 
 echo "installing Nodejs"
