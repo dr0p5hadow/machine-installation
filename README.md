@@ -5,9 +5,8 @@ This install process will also add (except the BBHT scripts).
 1. Postman
 2. Pycharm
 3. OWASP ZAP
-4. Chromium
-5. Visual Studio Code
-6. Cacher
-7. Amass
+4. Visual Studio Code
+5. Cacher
+6. Amass
 
 > All AWS processes removed from those scripts, i am just not using AWS so much 😇
