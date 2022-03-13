@@ -17,6 +17,7 @@ sudo apt-get install -y python-dnspython
 sudo apt-get install -y git
 sudo apt-get install -y rename
 sudo apt-get install -y xargs
+sudo apt install snapd
 
 
 echo "installing bash_profile aliases from recon_profile"
@@ -64,92 +65,93 @@ cd ~/tools/
 #install aquatone
 echo "Installing Aquatone"
 go get github.com/michenriksen/aquatone
-echo "done"
+echo "Aquatone installed"
 
 #install chromium
 echo "Installing Chromium"
 sudo snap install chromium
-echo "done"
+echo "Chromium installed"
 
 echo "installing JSParser"
 git clone https://github.com/nahamsec/JSParser.git
 cd JSParser*
 sudo python setup.py install
 cd ~/tools/
-echo "done"
+echo "JSParser installed"
 
 echo "installing Sublist3r"
 git clone https://github.com/aboul3la/Sublist3r.git
 cd Sublist3r*
 pip install -r requirements.txt
 cd ~/tools/
-echo "done"
+echo "Sublist3r installed"
 
 echo "installing wpscan"
 git clone https://github.com/wpscanteam/wpscan.git
 cd wpscan*
 sudo gem install bundler && bundle install --without test
 cd ~/tools/
-echo "done"
+echo "wpscan installed"
 
 echo "installing dirsearch"
 git clone https://github.com/maurosoria/dirsearch.git
 cd ~/tools/
-echo "done"
+echo "dirsearch installed"
 
 echo "installing virtual host discovery"
 git clone https://github.com/jobertabma/virtual-host-discovery.git
 cd ~/tools/
-echo "done"
+echo "discovery installed"
 
 echo "installing sqlmap"
 git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
 cd ~/tools/
-echo "done"
+echo "sqlmap installed"
 
 echo "installing knock.py"
 git clone https://github.com/guelfoweb/knock.git
 cd ~/tools/
-echo "done"
+echo "knock.py installed"
 
 echo "installing lazyrecon"
 git clone https://github.com/nahamsec/lazyrecon.git
 cd ~/tools/
-echo "done"
+echo "lazyrecon installed"
 
 echo "installing nmap"
-sudo apt-get install -y nmap
-echo "done"
+
+apt-get install -y nmap
+echo "nmap installed"
 
 echo "installing massdns"
 git clone https://github.com/blechschmidt/massdns.git
 cd ~/tools/massdns
 make
 cd ~/tools/
-echo "done"
+echo "massdns installed"
 
 echo "installing asnlookup"
 git clone https://github.com/yassineaboukir/asnlookup.git
 cd ~/tools/asnlookup
 pip install -r requirements.txt
 cd ~/tools/
-echo "done"
+echo "asnlookup installed"
 
 echo "installing httprobe"
 go get -u github.com/tomnomnom/httprobe 
-echo "done"
+echo "httprobe installed"
 
 echo "installing unfurl"
 go get -u github.com/tomnomnom/unfurl 
-echo "done"
+echo "unfurl installed"
 
 echo "installing waybackurls"
 go get github.com/tomnomnom/waybackurls
-echo "done"
+echo "waybackurls installed"
 
 echo "installing crtndstry"
 git clone https://github.com/nahamsec/crtndstry.git
-echo "done"
+echo "crtndstry installed"
 
 echo "downloading Seclists"
 cd ~/tools/
@@ -158,7 +160,40 @@ cd ~/tools/SecLists/Discovery/DNS/
 ##THIS FILE BREAKS MASSDNS AND NEEDS TO BE CLEANED
 cat dns-Jhaddix.txt | head -n -14 > clean-jhaddix-dns.txt
 cd ~/tools/
-echo "done"
+echo "Seclists Downloaded"
 
 echo -e "\n\n\n\n\n\n\n\n\n\n\nDone! All tools are set up in ~/tools"
 ls -la
+
+echo "installing Postman"
+sudo snap install postman
+
+echo "Postam Installed"
+
+
+echo "installing Amass"
+sudo snap install amass
+
+echo "Amass Installed"
+
+echo "installing VS Code"
+sudo snap install code --classic
+
+echo "VS Code Installed"
+
+echo "installing Pycharm community"
+sudo snap install pycharm-community --classic
+
+echo "Pycharm community Installed"
+
+echo "installing OWASP zaproxy"
+sudo snap install zaproxy --classic
+
+echo "zaproxy ZAP Installed"
+
+echo "installing Cacher"
+sudo snap install zaproxy --classic
+
+echo "Cacher Installed"
+
+echo "Installation Done, Good Luck, dr0p5hadow"
