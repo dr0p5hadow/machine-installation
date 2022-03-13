@@ -162,38 +162,39 @@ cat dns-Jhaddix.txt | head -n -14 > clean-jhaddix-dns.txt
 cd ~/tools/
 echo "Seclists Downloaded"
 
-echo -e "\n\n\n\n\n\n\n\n\n\n\nDone! All tools are set up in ~/tools"
-ls -la
-
 echo "installing Postman"
 sudo snap install postman
-
 echo "Postam Installed"
-
 
 echo "installing Amass"
 sudo snap install amass
-
 echo "Amass Installed"
 
 echo "installing VS Code"
 sudo snap install code --classic
-
 echo "VS Code Installed"
 
 echo "installing Pycharm community"
 sudo snap install pycharm-community --classic
-
 echo "Pycharm community Installed"
 
 echo "installing OWASP zaproxy"
 sudo snap install zaproxy --classic
-
 echo "zaproxy ZAP Installed"
 
 echo "installing Cacher"
 sudo snap install zaproxy --classic
-
 echo "Cacher Installed"
 
-echo "Installation Done, Good Luck, dr0p5hadow"
+echo "installing CURL"
+sudo snap install curl
+echo "CURL installed"
+
+echo "installing NVM"
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
+echo "NVM installed"
+
+echo "Reloading ~./profile"
+source ~/.profile
+echo -e "\n\n\n\n\n\n\n\n\n\n\nDone! All tools are set up in ~/tools"
+ls -la
