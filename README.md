@@ -9,6 +9,9 @@ This install process will also add (except the BBHT scripts).
 5. Visual Studio Code
 6. Cacher
 7. Amass
+8. NVM
+9. Nodejs
+10. CURL
 
 > All AWS installations removed, i am just not using AWS so much 😇
 
