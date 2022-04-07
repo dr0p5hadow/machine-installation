@@ -1,6 +1,6 @@
 # machine-installation
 The base idea and script for this repository is taken from https://github.com/nahamsec BBHT
-
+ubuntu
 1. Postman
 2. Pycharm
 3. OWASP ZAP
