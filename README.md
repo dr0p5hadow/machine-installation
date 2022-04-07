@@ -1,5 +1,5 @@
 # machine-installation
-The base idea and script for this repository is taken from https://github.com/nahamsec BBHT
+
 ubuntu
 1. Postman
 2. Pycharm
@@ -7,3 +7,5 @@ ubuntu
 4. Visual Studio Code
 5. Amass
 6. CURL
+
+parrot
