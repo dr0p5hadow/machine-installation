@@ -9,3 +9,8 @@ ubuntu
 6. CURL
 
 parrot
+1. snap
+2. Postman
+3. Pycharm
+4. Amass
+5. Curl
