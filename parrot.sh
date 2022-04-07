@@ -17,3 +17,7 @@ echo "Amass Installed"
 echo "installing Pycharm community"
 sudo snap install pycharm-community --classic
 echo "Pycharm community Installed"
+
+echo "installing CURL"
+sudo snap install curl
+echo "CURL installed
