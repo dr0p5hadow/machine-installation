@@ -30,3 +30,8 @@ echo "Sublime text installed"
 echo "install x-hydra"
 sudo apt-get install hydra-gtk -y
 echo "x-hydra installed"
+
+
+echo "install ssh2john"
+sudo apt-get install john -y
+echo "ssh2john installed"
