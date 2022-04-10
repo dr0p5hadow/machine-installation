@@ -26,7 +26,8 @@ echo "installing CURL"
 sudo snap install curl
 echo "CURL installed"
 
-echo "---------------------------------------"
-
-echo -e "\n\n\n Installations Done!"
-ls -la
+echo "Installig Sublime text"
+sudo apt-get install apt-transport-https
+sudo apt-get update
+sudo apt-get install sublime-text
+echo "Sublime text installed"
