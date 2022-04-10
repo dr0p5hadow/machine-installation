@@ -1,6 +1,6 @@
 #!/bin/bash
-sudo apt -y update
-sudo apt -y upgrade
+sudo apt-get -y update
+sudo apt-get -y upgrade
 
 echo "installing Snapd"
 sudo apt install snapd
@@ -23,5 +23,7 @@ sudo snap install curl
 echo "CURL installed"
 
 echo "Installig Sublime text"
-sudo apt install sublime-text
+sudo apt-get install apt-transport-https
+sudo apt-get update
+sudo apt-get install sublime-text
 echo "Sublime text installed"
