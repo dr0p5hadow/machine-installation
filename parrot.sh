@@ -1,6 +1,6 @@
 #!/bin/bash
-sudo apt-get -y update
-sudo apt-get -y upgrade
+sudo apt -y update
+sudo apt -y upgrade
 
 echo "installing Snapd"
 sudo apt install snapd
@@ -20,4 +20,8 @@ echo "Pycharm community Installed"
 
 echo "installing CURL"
 sudo snap install curl
-echo "CURL installed
+echo "CURL installed"
+
+echo "Installig Sublime text"
+sudo apt install sublime-text
+echo "Sublime text installed"
