@@ -1,9 +1,10 @@
 #!/bin/bash
-sudo apt-get -y update
-sudo apt-get -y upgrade
+sudo apt-get install apt-transport-https -y
+sudo apt-get update -y
+sudo apt-get upgrade -y
 
 echo "installing Snapd"
-sudo apt install snapd
+sudo apt install snapd -y
 echo "Snapd Installed"
 
 echo "installing Postman"
@@ -23,7 +24,9 @@ sudo snap install curl
 echo "CURL installed"
 
 echo "Installig Sublime text"
-sudo apt-get install apt-transport-https
-sudo apt-get update
-sudo apt-get install sublime-text
+sudo apt-get install sublime-text -y
 echo "Sublime text installed"
+
+echo "install x-hydra"
+sudo apt-get install hydra-gtk -y
+echo "x-hydra installed"
