@@ -35,3 +35,7 @@ echo "x-hydra installed"
 echo "install ssh2john"
 sudo apt-get install john -y
 echo "ssh2john installed"
+
+echo "install chromium"
+sudo apt-get install chromium
+echo "chromium installed"
