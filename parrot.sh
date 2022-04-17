@@ -37,5 +37,5 @@ sudo apt-get install john -y
 echo "ssh2john installed"
 
 echo "install chromium"
-sudo apt-get install chromium
+sudo apt-get install chromium -y
 echo "chromium installed"
